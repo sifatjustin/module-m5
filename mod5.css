@@ -124,3 +124,11 @@ main{
 .about-info{
     text-align: center;
 }
+#what-i-do-des{
+    padding: 40px 130px;
+
+}
+.skills-container{
+    display: flex;
+    
+}
