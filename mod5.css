@@ -10,11 +10,11 @@ body {
 }
 
 .btn-primary {
-    width: 150px;
-    height: 64px;
-    flex-shrink: 0;
+
+
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0;
     color: white;
     font-size: 20px;
     font-weight: 700;
@@ -25,6 +25,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 220px;
 }
 
 .nav-title {
@@ -49,4 +50,21 @@ nav li {
 nav a {
     text-decoration: none;
     columns: #474747;
+}
+
+/*header related styles*/
+.header {
+    background-color: #FFF8F3;
+
+}
+
+.bannar {
+    padding: 30px 30px 30px 250px;
+    display: flex;
+    align-items: center;
+  
+}
+.bannar .profile-pic{
+ width: 500px;
+ 
 }
